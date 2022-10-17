@@ -1,6 +1,6 @@
 # ScienceQA: Science Question Answering
 
-![VQA](https://img.shields.io/badge/Task-VQA-orange) ![Science Problems](https://img.shields.io/badge/Task-Science Problems-orange) ![ScienceQA](https://img.shields.io/badge/Dataset-ScienceQA-blue) ![Chain-of-Thought](https://img.shields.io/badge/Model-Chain of Thought-red) ![GPT-3](https://img.shields.io/badge/Model-GPT3-red)  ![LLM](https://img.shields.io/badge/Model-LLM-red)
+![VQA](https://img.shields.io/badge/Task-VQA-orange) ![Science Problems](https://img.shields.io/badge/Task-Science_Problems-orange) ![ScienceQA](https://img.shields.io/badge/Dataset-ScienceQA-blue) ![Chain-of-Thought](https://img.shields.io/badge/Model-Chain_of_Thought-red) ![GPT-3](https://img.shields.io/badge/Model-GPT--3-red)  ![LLM](https://img.shields.io/badge/Model-LLM-red)
 
 Data and code for NeurIPS 2022 Paper "[Learn to Explain: Multimodal Reasoning via
 Thought Chains for Science Question Answering](http://lupantech.github.io/papers/neurips22_scienceqa.pdf)".
@@ -25,7 +25,7 @@ For more details, you can find our project page [here](https://scienceqa.github.
 
 ## Download the dataset
 
-The text part of the **ScienceQA** dataset is provided in [data/scienceqa/problems.json](https://github.com/lupantech/ScienceQA/data/scienceqa/problems.json). You can download the image data of ScienceQA by running:
+The text part of the **ScienceQA** dataset is provided in [data/scienceqa/problems.json](https://github.com/lupantech/ScienceQA/blob/main/data/scienceqa/problems.json). You can download the image data of ScienceQA by running:
 
 ```sh
 . tools/download.sh
@@ -62,7 +62,7 @@ pip install -r requirements.txt
 
 ### Generate the image captions
 
-We use the image captioning model to generate the text content for images in ScienceQA. The pre-generated image captions are provided in [data/captions.json](https://github.com/lupantech/ScienceQA/data/problems.json).
+We use the image captioning model to generate the text content for images in ScienceQA. The pre-generated image captions are provided in [data/captions.json](https://github.com/lupantech/ScienceQA/blob/main/data/captions.json).
 
 (Optionally) You can generate the image captions with user-specific arguments with the following command, which will save the caption data in `data/captions_user.json`.
 
@@ -136,6 +136,7 @@ This work is licensed under a [MIT License](http://creativecommons.org/licenses/
 [![License: CC BY-SA 4.0](https://camo.githubusercontent.com/bdc6a3b8963aa99ff57dfd6e1e4b937bd2e752bcb1f1936f90368e5c3a38f670/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d434325323042592d2d5341253230342e302d6c69676874677265792e737667)](https://creativecommons.org/licenses/by-sa/4.0/)
 
 The ScienceQA dataset is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+
 
 
 ## Cite
