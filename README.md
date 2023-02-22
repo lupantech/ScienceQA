@@ -15,16 +15,16 @@ For more details, please refer to the project page with dataset exploration and 
 
 :bell: The leaderboard is continuously being updated. If you have any new results to contribute, please feel free to reach out to us.
 
-| **Rank** | **Method**                           | **Sources**                                                  | **Date** | **NAT**      | **SOC**      | **LAN**      | **TXT**      | **IMG**      | **NO**       | **G1-6**     | **G7-12**    | **Avg**      |
-| -------- | ------------------------------------ | ------------------------------------------------------------ | -------- | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
-| 1        | Random Chance                        | [Pan et al., NeurIPS 2022](https://arxiv.org/abs/2209.09513) | Sep-2022 | 40.28        | 46.13        | 29.25        | 47.45        | 40.08        | 33.66        | 39.35        | 40.67        | 39.83        |
-| 2        | Human Average                        | [Pan et al., NeurIPS 2022](https://arxiv.org/abs/2209.09513) | Sep-2022 | <u>90.23</u> | <u>84.97</u> | <u>87.48</u> | <u>89.60</u> | <u>87.50</u> | <u>88.10</u> | <u>91.59</u> | <u>82.42</u> | <u>88.40</u> |
-| 3        | **GPT-3.5** <br/> (QCM→A, 2-shot)          | [Pan et al., NeurIPS 2022](https://arxiv.org/abs/2209.09513) | Sep-2022 | 74.64        | 69.74        | 76.00        | 74.44        | 67.28        | 77.42        | 76.80        | 68.89        | 73.97        |
-| 4        | **GPT-3.5** <br /> (QCM→A, zero-shot)       | [Pan et al., NeurIPS 2022](https://arxiv.org/abs/2209.09513) | Sep-2022 | 75.04        | 66.59        | 78.00        | 74.24        | 65.74        | 79.58        | 76.36        | 69.87        | 74.04        |
-| 5        | **GPT-3.5 w/ CoT** <br /> (QCM→A, 2-shot)   | [Pan et al., NeurIPS 2022](https://arxiv.org/abs/2209.09513) | Sep-2022 | 76.60        | 65.92        | 77.55        | 75.51        | 66.09        | 79.58        | 78.49        | 67.63        | 74.61        |
-| 6        | **GPT-3.5 w/ CoT** <br /> (QCM→ALE, 2-shot) | [Pan et al., NeurIPS 2022](https://arxiv.org/abs/2209.09513) | Sep-2022 | 75.44        | 70.87        | 78.09        | 74.68        | 67.43        | 79.93        | 78.23        | 69.68        | 75.17        |
-| 7        | **Multimodal-CoT** <br /> (Base)            | [Zhang et al., arXiv 2023](https://arxiv.org/abs/2302.00923) | Feb-2023 | 87.52        | 77.17        | 85.82        | 87.88        | 82.90        | 86.83        | 84.65        | 85.37        | 84.91        |
-| 8        | **Multimodal-CoT** <br /> (Large)           | [Zhang et al., arXiv 2023](https://arxiv.org/abs/2302.00923) | Feb-2023 | **95.91**    | **82.00**    | **90.82**    | **95.26**    | **88.80**    | **92.89**    | **92.44**    | **90.31**    | **91.68**    |
+| **Rank** | **Method**                        | **Sources**                                                  | **Date** | **NAT** | **SOC** | **LAN** | **TXT** | **IMG** | **NO** | **G1-6** | **G7-12** | **Avg** |
+| -------- | --------------------------------- | ------------------------------------------------------------ | -------- | ------- | ------- | ------- | ------- | ------- | ------ | -------- | --------- | ------- |
+| 1        | Random Chance                    | [Pan et al., NeurIPS 2022](https://arxiv.org/abs/2209.09513) | Sep-2022 | 40.28   | 46.13   | 29.25   | 47.45   | 40.08   | 33.66  | 39.35    | 40.67     | 39.83   |
+| 2        | Human Average                     | [Pan et al., NeurIPS 2022](https://arxiv.org/abs/2209.09513) | Sep-2022 | **90.23** | **84.97** | **87.48** | **89.60** | **87.50** | **88.10** | **91.59** | **82.42** | **88.40** |
+| 3        | **GPT-3.5** <br />(QCM→A, 2-shot)   | [Pan et al., NeurIPS 2022](https://arxiv.org/abs/2209.09513) | Sep-2022 | 74.64   | 69.74   | 76.00   | 74.44   | 67.28   | 77.42  | 76.80    | 68.89     | 73.97   |
+| 4        | **GPT-3.5** (QCM→A, zero-shot)      | [Pan et al., NeurIPS 2022](https://arxiv.org/abs/2209.09513) | Sep-2022 | 75.04   | 66.59   | 78.00   | 74.24   | 65.74   | 79.58  | 76.36    | 69.87     | 74.04   |
+| 5        | **GPT-3.5 w/ CoT** (QCM→A, 2-shot) | [Pan et al., NeurIPS 2022](https://arxiv.org/abs/2209.09513) | Sep-2022 | 76.60   | 65.92   | 77.55   | 75.51   | 66.09   | 79.58  | 78.49    | 67.63     | 74.61   |
+| 6        | **GPT-3.5 w/ CoT** (QCM→ALE, 2-shot) | [Pan et al., NeurIPS 2022](https://arxiv.org/abs/2209.09513) | Sep-2022 | 75.44   | 70.87   | 78.09   | 74.68   | 67.43   | 79.93  | 78.23    | 69.68     | 75.17   |
+| 7        | **Multimodal-CoT** (Base) | [Zhang et al., arXiv 2023](https://arxiv.org/abs/2302.00923) | Feb-2023 | 87.52     | 77.17     | 85.82     | 87.88     | 82.90     | 86.83     | 84.65     | 85.37     | 84.91     |
+| 8        | **Multimodal-CoT** (Large) | [Zhang et al., arXiv 2023](https://arxiv.org/abs/2302.00923) | Feb-2023 | **95.91** | **82.00** | **90.82** | **95.26** | **88.80** | **92.89** | **92.44** | **90.31** | **91.68** |
 
 
 
