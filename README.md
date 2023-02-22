@@ -7,7 +7,7 @@ Thought Chains for Science Question Answering](http://lupantech.github.io/papers
 
 For more details, please refer to the project page with dataset exploration and visualization tools: https://scienceqa.github.io.
 
-:bell: If you have any questions or suggestions, please don't hesitate to let us know. You can directly email [Pan Lu](https://lupantech.github.io/) at UCLA using the email address lupantech@gmail.com, comment on the [twitter](https://twitter.com/lupantech/status/1570828580346802178), or post an issue on this repository.
+:bell: If you have any questions or suggestions, please don't hesitate to let us know. You can directly email [Pan Lu](https://lupantech.github.io/) at UCLA using the email address lupantech@gmail.com, comment on the [Twitter](https://twitter.com/lupantech/status/1570828580346802178), or post an issue on this repository.
 
 
 
