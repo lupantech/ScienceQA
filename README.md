@@ -15,7 +15,7 @@ For more details, please refer to the project page with dataset exploration and 
 
 :bell: The leaderboard is continuously being updated. If you have any new results to contribute, please feel free to reach out to us.
 
-| **Rank** | **Method**                        | **Sources**                                                  | **Date** | **NAT** | **SOC** | **LAN** | **TXT** | **IMG** | **NO** | **G1-6** | **G7-12** | **Avg** |
+| **#** | **Method**                        | **Sources**                                                  | **Date** | **NAT** | **SOC** | **LAN** | **TXT** | **IMG** | **NO** | **G1-6** | **G7-12** | **Avg** |
 | -------- | --------------------------------- | ------------------------------------------------------------ | -------- | ------- | ------- | ------- | ------- | ------- | ------ | -------- | --------- | ------- |
 | 1        | Random Chance                    | [Pan et al., NeurIPS 2022](https://arxiv.org/abs/2209.09513) | Sep-2022 | 40.28   | 46.13   | 29.25   | 47.45   | 40.08   | 33.66  | 39.35    | 40.67     | 39.83   |
 | 2        | Human Average                     | [Pan et al., NeurIPS 2022](https://arxiv.org/abs/2209.09513) | Sep-2022 | **90.23** | **84.97** | **87.48** | **89.60** | **87.50** | **88.10** | **91.59** | **82.42** | **88.40** |
