@@ -14,10 +14,11 @@ For more details, please refer to the project page with dataset exploration and 
 ## 💥 News 💥
 
 - [09/2022] Our work is accepted to [NeurIPS 2022](https://nips.cc/Conferences/2022).
+- - [11/2022] Our work is now included at [Paper with Code]([https://medium.com/geekculture/neurips-2022-the-first-multi-modal-science-question-answering-science-qa-dataset-with-detailed-45b8d628b301)](https://paperswithcode.com/dataset/scienceqa).
 - [11/2022] Our work is featured on [Medium](https://medium.com/geekculture/neurips-2022-the-first-multi-modal-science-question-answering-science-qa-dataset-with-detailed-45b8d628b301).
 - [12/2022] Our work gives an poster presentation by Pan Lu at [NeurIPS 2022](https://nips.cc/Conferences/2022).
 - [02/2023] The ScienceQA dataset has served as the primary benchmark for the new generation of multimodal reasoning systems, [Multimodal-CoT](https://github.com/amazon-science/mm-cot), developed by [Amazon Science](https://www.amazon.science/).
-- [02/2023] The ScienceQA dataset is now included in [HuggingFace Datasets](https://huggingface.co/datasets/derek-thomas/ScienceQA).
+- [02/2023] The ScienceQA dataset is now included at [HuggingFace Datasets](https://huggingface.co/datasets/derek-thomas/ScienceQA).
 - [02/2023] Our work gives an oral presentation by Pan Lu at [AAAI 2023 KnowledgeNLP Workshop](https://knowledge-nlp.github.io/aaai2023/publications.html).
 
 
