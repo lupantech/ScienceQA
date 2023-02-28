@@ -41,7 +41,7 @@ For more details, please refer to the project page with dataset exploration and 
 
 
 
-## About ScienceQA
+## :world_map: About ScienceQA
 
 We present **Science Question Answering (ScienceQA)**, a new benchmark that consists of 21,208 multimodal multiple choice questions with a diverse set of *science* topics and annotations of their answers with corresponding *lectures* and *explanations*. The lecture and explanation provide general external knowledge and specific reasons, respectively, for arriving at the correct answer.
 
@@ -57,7 +57,7 @@ For more details, you can find our project page [here](https://scienceqa.github.
 
 
 
-## Download the dataset
+## :ghost: Download the Dataset
 
 The text part of the **ScienceQA** dataset is provided in [data/scienceqa/problems.json](https://github.com/lupantech/ScienceQA/blob/main/data/scienceqa/problems.json). You can download the image data of ScienceQA by running:
 
@@ -71,7 +71,15 @@ Alternatively, you can download **ScienceQA** from [Google Drive](https://drive.
 
 
 
-## Requirements
+## :smiling_imp: Explore ScienceQA
+
+For more details, you can explore the datatset and check the visualizations here: [Explore](https://scienceqa.github.io/explore.html) and [Visualizations](https://scienceqa.github.io/visualize.html).
+
+![explore](data/explore.png)
+
+
+
+## :octopus: Requirements
 
 ```
 python==3.8.10
@@ -94,7 +102,7 @@ pip install -r requirements.txt
 
 
 
-## Run the GPT-3 (CoT) Model for ScienceQA
+## :robot: Run the GPT-3 (CoT) Model for ScienceQA
 
 ### Generate the image captions
 
@@ -163,7 +171,7 @@ python run_gpt3.py \
 
 
 
-## License
+## :warning: Licenses
 
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
@@ -175,9 +183,9 @@ The ScienceQA dataset is licensed under a [Creative Commons Attribution-NonComme
 
 
 
-## Cite
+## :white_check_mark: Cite
 
-**If the paper, codes, or the dataset inspire you, please cite us:**
+**If the paper, codes, or the dataset inspire you, please kindly cite us:**
 
 ```latex
 @inproceedings{lu2022learn,
@@ -187,4 +195,3 @@ The ScienceQA dataset is licensed under a [Creative Commons Attribution-NonComme
     year={2022}
 }
 ```
-
