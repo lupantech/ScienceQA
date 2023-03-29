@@ -83,7 +83,7 @@ For more details, you can explore the datatset and check the visualizations here
 
 ```
 python==3.8.10
-huggingface-hub==0.0.12
+huggingface-hub
 nltk==3.5
 numpy==1.23.2
 openai==0.23.0
