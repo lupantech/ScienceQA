@@ -121,7 +121,7 @@ We build a few-shot GPT-3 model via chain-of-thought (CoT) prompting to generate
 
 ![scienceqa](data/prompt.png)
 
-In our final model, we develp GPT-3 (CoT) prompted with two in-context examples and evalute it on the ScienceQA test split:
+In our final model, we develop GPT-3 (CoT) prompted with two in-context examples and evalute it on the ScienceQA test split:
 
 ```sh
 cd models
@@ -136,7 +136,7 @@ python run_gpt3.py \
 
 ### Evaluate the results
 
-Our final GPT-3 (CoT) model achieves a state-of-the-art accuracy of 75.17% on the test split. One prediction example is visualized bellow. We can see that GPT-3 (CoT) predicts the correct answer and generates a reasonable lecture and explanation to mimic the human thought process.
+Our final GPT-3 (CoT) model achieves a state-of-the-art accuracy of 75.17% on the test split. One prediction example is visualized below. We can see that GPT-3 (CoT) predicts the correct answer and generates a reasonable lecture and explanation to mimic the human thought process.
 
 ![scienceqa](data/prediction.png)
 
