@@ -26,6 +26,9 @@ For more details, please refer to the project page with dataset exploration and 
 - [04/01, 2023] Our work is covered by [Towards AI](https://towardsai.net/p/machine-learning/chain-of-thought-reasoning-by-c-jarnach-medium?amp=1).
 - [04/01, 2023] Our work is accepted by [CVPR 2023 O-DRUM Workshop](https://asu-apg.github.io/odrum/).
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=lupantech/ScienceQA&type=Date)](https://star-history.com/#lupantech/ScienceQA&Date)
 
 
 
