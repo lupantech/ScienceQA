@@ -21,27 +21,45 @@ For more details, please refer to the project page with dataset exploration and 
 
 ## 💥 News 💥
 
-- **[2022.09.20]** Our work is featured in [Deep AI](https://deepai.org/publication/learn-to-explain-multimodal-reasoning-via-thought-chains-for-science-question-answering).
-- **[2022.09.22]** Our work is accepted to [NeurIPS 2022](https://nips.cc/Conferences/2022). :star:
-- **[2022.11]** Our work is now included at [Paper with Code](https://paperswithcode.com/dataset/scienceqa).
-- **[2022.11.20]** Our work is covered by [Geek Culture | Medium](https://medium.com/geekculture/neurips-2022-the-first-multi-modal-science-question-answering-science-qa-dataset-with-detailed-45b8d628b301).
-- **[2022.11.29]** Our work gives an poster presentation by Pan Lu at [NeurIPS 2022](https://nips.cc/Conferences/2022).
-- **[2023.02.02]** The ScienceQA dataset has served as the primary benchmark for the new generation of multimodal reasoning systems, [Multimodal-CoT](https://github.com/amazon-science/mm-cot), developed by [Amazon Science](https://www.amazon.science/).
-- **[2023.02.24]** The ScienceQA dataset is now included at [HuggingFace Datasets](https://huggingface.co/datasets/derek-thomas/ScienceQA). :star:
-- **[2023.02.05]** Our work is covered by [MarkTechPost](https://www.marktechpost.com/2023/02/05/a-new-artificial-intelligence-research-proposes-multimodal-chain-of-thought-reasoning-in-language-models-that-outperforms-gpt-3-5-by-16-75-17-%E2%86%92-91-68-on-scienceqa/).
-- **[2023.02.13]** Our work gives an oral presentation by Pan Lu at [AAAI 2023 KnowledgeNLP Workshop](https://knowledge-nlp.github.io/aaai2023/publications.html).
-- **[2023.03.28]** The ScienceQA dataset has served as the primary benchmark for [LLaMA-Adapter](https://github.com/ZrrSkywalker/LLaMA-Adapter), developed by Shanghai AI Laboratory, UCLA, and CUHK.
-- **[2023.03.30]** The ScienceQA dataset is now included at [OpenDataLab](https://opendatalab.org.cn/ScienceQA).
-- **[2023.04.01]** Our ScienceQA dataset was downloaded **377** times in March at [HuggingFace Datasets](https://huggingface.co/datasets/derek-thomas/ScienceQA).
-- **[2023.04.01]** Our work is covered by [Towards AI](https://towardsai.net/p/machine-learning/chain-of-thought-reasoning-by-c-jarnach-medium?amp=1).
-- **[2023.04.01]** Our work is accepted by [CVPR 2023 O-DRUM Workshop](https://asu-apg.github.io/odrum/).
-- **[2023.04.17]** [LLaVA](https://llava-vl.github.io/): A collaborative effort by UW–Madison and Microsoft, this groundbreaking work sets a new SOTA at **92.53%**. :star:
+- **[2023.05.04]** ScienceQA Featured in Leaked Google Document: "[We Have No Moat, And Neither Does OpenAI](https://www.semianalysis.com/p/google-we-have-no-moat-and-neither)": A recent leak of an internal Google document highlights the advancements and impact of ScienceQA within the AI research community. 🎯
+
+- **[2023.05.03]** In April, our ScienceQA dataset was downloaded **1,421** times from [HuggingFace Datasets](https://huggingface.co/datasets/derek-thomas/ScienceQA), showcasing its growing popularity in the community. [[Link](https://raw.githubusercontent.com/lupantech/ScienceQA/main/assets/huggingface_2023.05.03.png)] 🌟
+
 - **[2023.04.19]** [Chameleon](https://chameleon-llm.github.io/): Developed by UCLA and Microsoft, this innovative project achieves a new SOTA in the few-shot setting, reaching an impressive **86.54%**. :star:
-- **[2023.04.30]** In April, our ScienceQA dataset was downloaded **1,255** times from [HuggingFace Datasets](https://huggingface.co/datasets/derek-thomas/ScienceQA), showcasing its growing popularity in the community. [[Link](https://raw.githubusercontent.com/lupantech/ScienceQA/main/assets/huggingface_2023.04.30.png)]
+
+- **[2023.04.17]** [LLaVA](https://llava-vl.github.io/): A collaborative effort by UW–Madison and Microsoft, this groundbreaking work sets a new SOTA at **92.53%**. :star:
+
+- **[2023.04.01]** Our work is accepted by [CVPR 2023 O-DRUM Workshop](https://asu-apg.github.io/odrum/).
+
+- **[2023.04.01]** Our work is covered by [Towards AI](https://towardsai.net/p/machine-learning/chain-of-thought-reasoning-by-c-jarnach-medium?amp=1).
+
+- **[2023.04.01]** Our ScienceQA dataset was downloaded **377** times in March at [HuggingFace Datasets](https://huggingface.co/datasets/derek-thomas/ScienceQA).
+
+- **[2023.03.30]** The ScienceQA dataset is now included at [OpenDataLab](https://opendatalab.org.cn/ScienceQA).
+
+- **[2023.03.28]** The ScienceQA dataset has served as the primary benchmark for [LLaMA-Adapter](https://github.com/ZrrSkywalker/LLaMA-Adapter), developed by Shanghai AI Laboratory, UCLA, and CUHK. :star:
+
+- **[2023.02.13]** Our work gives an oral presentation by Pan Lu at [AAAI 2023 KnowledgeNLP Workshop](https://knowledge-nlp.github.io/aaai2023/publications.html).
+
+- **[2023.02.05]** Our work is covered by [MarkTechPost](https://www.marktechpost.com/2023/02/05/a-new-artificial-intelligence-research-proposes-multimodal-chain-of-thought-reasoning-in-language-models-that-outperforms-gpt-3-5-by-16-75-17-%E2%86%92-91-68-on-scienceqa/).
+
+- **[2023.02.24]** The ScienceQA dataset is now included at [HuggingFace Datasets](https://huggingface.co/datasets/derek-thomas/ScienceQA). :star:
+
+- **[2023.02.02]** The ScienceQA dataset has served as the primary benchmark for the new generation of multimodal reasoning systems, [Multimodal-CoT](https://github.com/amazon-science/mm-cot), developed by [Amazon Science](https://www.amazon.science/).
+
+- **[2022.11.29]** Our work gives an poster presentation by Pan Lu at [NeurIPS 2022](https://nips.cc/Conferences/2022).
+
+- **[2022.11.20]** Our work is covered by [Geek Culture | Medium](https://medium.com/geekculture/neurips-2022-the-first-multi-modal-science-question-answering-science-qa-dataset-with-detailed-45b8d628b301).
+
+- **[2022.11]** Our work is now included at [Paper with Code](https://paperswithcode.com/dataset/scienceqa).
+
+- **[2022.09.22]** Our work is accepted to [NeurIPS 2022](https://nips.cc/Conferences/2022). 🌟
+
+- **[2022.09.20]** Our work is featured in [Deep AI](https://deepai.org/publication/learn-to-explain-multimodal-reasoning-via-thought-chains-for-science-question-answering).
 
   
 
-## Star History
+## 🌟 Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=lupantech/ScienceQA&type=Date)](https://star-history.com/#lupantech/ScienceQA&Date)
 
@@ -102,7 +120,9 @@ We present **Science Question Answering (ScienceQA)**, a new benchmark that cons
 
 ScienceQA, in contrast to previous datasets, has richer domain diversity from three subjects: **natural science**, **language science**, and **social science**. ScienceQA features 26 topics, 127 categories, and 379 skills that cover a wide range of domains.
 
-![domains](assets/domains.png)
+![domain](assets/domain.png)
+
+![context](assets/context.png)
 
 We further design language models to learn to generate lectures and explanations as **the chain of thought (CoT)** to mimic the multi-hop reasoning process when answering ScienceQA questions. ScienceQA demonstrates the utility of CoT in language models, as CoT improves the question answering performance by 1.20% in few-shot GPT-3 and 3.99% in fine-tuned UnifiedQA.
 
@@ -228,8 +248,10 @@ python run_gpt3.py \
 
 - :fire: **Learn to Explain: Multimodal Reasoning via Thought Chains for Science Question Answering,** NeurIPS 2022 [[ArXiv](https://arxiv.org/abs/2209.09513)] [[Project](https://scienceqa.github.io/)] [[Code](https://github.com/lupantech/ScienceQA)] [[Hugging Face Dataset](https://huggingface.co/datasets/derek-thomas/ScienceQA)]
 - :fire: **Multimodal Chain-of-Thought Reasoning in Language Models**, arXiv:2302.00923 [[ArXiv](https://arxiv.org/abs/2302.00923)] [[Code](https://github.com/amazon-science/mm-cot)]
+- :fire: **LLaMA-Adapter: Efficient Fine-tuning of Language Models with Zero-init Attention**, arXiv:2303.16199 [[ArXiv](https://arxiv.org/abs/2303.16199)] [[Code](https://github.com/ZrrSkywalker/LLaMA-Adapter)] [[Gradio Demo](https://e8e6404cbb6b27c3b2.gradio.live/)] [[LightingAI Report](https://lightning.ai/pages/community/article/understanding-llama-adapters/)]
 - :fire: **Visual Instruction Tuning**, arXiv:2304.08485 [[ArXiv](https://arxiv.org/abs/2304.08485)] [[Project](https://llava-vl.github.io/)] [[Code](https://github.com/haotian-liu/LLaVA)] [[Demo](https://llava.hliu.cc/)] [[Dataset](https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K)]
 - :fire: **Chameleon: Plug-and-Play Compositional Reasoning with Large Language Models**, arXiv:2304.09842 [[ArXiv](https://arxiv.org/abs/2304.09842)] [[Project](https://chameleon-llm.github.io/)] [[Code](https://github.com/lupantech/chameleon-llm)] [[YouTube](https://www.youtube.com/watch?v=EWFixIk4vjs&ab_channel=WorldofAI)]
+- :fire: **LLaMA-Adapter V2: Parameter-Efficient Visual Instruction Model**, arXiv:2304.15010 [[ArXiv](https://arxiv.org/abs/2304.15010)] [[Code](https://github.com/ZrrSkywalker/LLaMA-Adapter)] [[YouTube](https://www.youtube.com/watch?v=GAJyWkkSd8M&ab_channel=BruinTech)]
 
 
 
