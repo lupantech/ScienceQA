@@ -13,6 +13,8 @@ def get_acc_with_contion(res_pd, key, values):
     else:
         total_pd = res_pd[res_pd[key] == values]
     correct_pd = total_pd[total_pd['true_false'] == True]
+    if len(total_pd) == 0:
+        return -1
     acc = "{:.2f}".format(len(correct_pd) / len(total_pd) * 100)
     return acc
 
@@ -68,6 +70,9 @@ def get_scores(result_file, data_file):
         'acc_average':
         "{:.2f}".format(acc_average),
     }
+    topics = ['punctuation', 'literacy-in-science', 'verbs', 'pronouns', 'civics', 'culture', 'word-study', 'economics', 'physics', 'units-and-measurement', 'science-and-engineering-practices', 'reading-comprehension', 'global-studies', 'grammar', 'figurative-language', 'us-history', 'writing-strategies', 'world-history', 'reference-skills', 'biology', 'earth-science', 'phonological-awareness', 'capitalization', 'chemistry', 'vocabulary', 'geography']
+    for t in topics:
+        scores['acc_' + t] = get_acc_with_contion(res_pd, 'topic', t)
 
     return scores
 
