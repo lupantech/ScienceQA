@@ -57,6 +57,8 @@ Evaluation of different methods on the **test** split (whole: 4,241, mini: 1,000
 
 ⚠️⚠️⚠️ Caveat: The data in the leaderboard is collected manually from existing papers. There might be some errors in the data, ambiguous data due to different interpretations, and missing data due to the lack of information in the papers. Make sure to double-check the data before using it. Please contact us at [this email](mailto:lupantech@gmail.com) if you find any errors or have any suggestions. We appreciate your contributions and feedback.
 
+The interactive leaderboard is available at https://scienceqa.github.io/leaderboard.html.
+
 | **#** | **Model**                     | **Method** | **Learning** | **#Size** | **#P** |                           **Link**                           | **Date** | **NAT** | **SOC** | **LAN** | **TXT** | **IMG** | **NO** | **G1-6** | **G7-12** |  **Avg**  |
 | ----- | ----------------------------- | :--------: | :----------: | :-------: | :----: | :----------------------------------------------------------: | :------: | :-----: | :-----: | :-----: | :-----: | :-----: | :----: | :------: | :-------: | :-------: |
 | *     | **Human Performance**         |     -      |      -       |     -     |   -    |           [Link](https://arxiv.org/abs/2209.09513)           | 22-09-20 |  90.23  |  84.97  |  87.48  |  89.60  |  87.50  | 88.10  |  91.59   |   82.42   | **88.40** |
