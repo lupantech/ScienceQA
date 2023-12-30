@@ -212,6 +212,7 @@ We present **Science Question Answering (ScienceQA)**, a new benchmark that cons
 <p align="center">
     <img src="assets/scienceqa.png" width="80%"> <br>
 </p>
+
 **ScienceQA**, in contrast to previous datasets, has richer domain diversity from three subjects: **natural science**, **language science**, and **social science**. **ScienceQA** features 26 topics, 127 categories, and 379 skills that cover a wide range of domains.
 
 <p align="center">
