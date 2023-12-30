@@ -22,19 +22,19 @@ For more details, please refer to the project page with dataset exploration and 
 ## 💥 News 💥
 
 - **[2023.12.29]** 🚨 We have a major update featuring over 100 recent models! We appreciate your contributions and feedback. 🚀
-- **[2023.05.04]** ScienceQA Featured in Leaked Google Document: "[We Have No Moat, And Neither Does OpenAI](https://www.semianalysis.com/p/google-we-have-no-moat-and-neither)": A recent leak of an internal Google document highlights the advancements and impact of ScienceQA within the AI research community. 🎯
-- **[2023.05.03]** In April, our ScienceQA dataset was downloaded **1,421** times from [HuggingFace Datasets](https://huggingface.co/datasets/derek-thomas/ScienceQA), showcasing its growing popularity in the community. [[Link](https://raw.githubusercontent.com/lupantech/ScienceQA/main/assets/huggingface_2023.05.03.png)] 🌟
+- **[2023.05.04]** **ScienceQA** Featured in Leaked Google Document: "[We Have No Moat, And Neither Does OpenAI](https://www.semianalysis.com/p/google-we-have-no-moat-and-neither)": A recent leak of an internal Google document highlights the advancements and impact of **ScienceQA** within the AI research community. 🎯
+- **[2023.05.03]** In April, our **ScienceQA** dataset was downloaded **1,421** times from [HuggingFace Datasets](https://huggingface.co/datasets/derek-thomas/ScienceQA), showcasing its growing popularity in the community. [[Link](https://raw.githubusercontent.com/lupantech/ScienceQA/main/assets/huggingface_2023.05.03.png)] 🌟
 - **[2023.04.19]** [Chameleon](https://chameleon-llm.github.io/): Developed by UCLA and Microsoft, this innovative project achieves a new SOTA in the few-shot setting, reaching an impressive **86.54%**. :star:
 - **[2023.04.17]** [LLaVA](https://llava-vl.github.io/): A collaborative effort by UW–Madison and Microsoft, this groundbreaking work sets a new SOTA at **92.53%**. :star:
 - **[2023.04.01]** Our work is accepted by [CVPR 2023 O-DRUM Workshop](https://asu-apg.github.io/odrum/).
 - **[2023.04.01]** Our work is covered by [Towards AI](https://towardsai.net/p/machine-learning/chain-of-thought-reasoning-by-c-jarnach-medium?amp=1).
-- **[2023.04.01]** Our ScienceQA dataset was downloaded **377** times in March at [HuggingFace Datasets](https://huggingface.co/datasets/derek-thomas/ScienceQA).
-- **[2023.03.30]** The ScienceQA dataset is now included at [OpenDataLab](https://opendatalab.org.cn/ScienceQA).
-- **[2023.03.28]** The ScienceQA dataset has served as the primary benchmark for [LLaMA-Adapter](https://github.com/ZrrSkywalker/LLaMA-Adapter), developed by Shanghai AI Laboratory, UCLA, and CUHK. :star:
+- **[2023.04.01]** Our **ScienceQA** dataset was downloaded **377** times in March at [HuggingFace Datasets](https://huggingface.co/datasets/derek-thomas/ScienceQA).
+- **[2023.03.30]** The **ScienceQA** dataset is now included at [OpenDataLab](https://opendatalab.org.cn/ScienceQA).
+- **[2023.03.28]** The **ScienceQA** dataset has served as the primary benchmark for [LLaMA-Adapter](https://github.com/ZrrSkywalker/LLaMA-Adapter), developed by Shanghai AI Laboratory, UCLA, and CUHK. :star:
 - **[2023.02.13]** Our work gives an oral presentation by Pan Lu at [AAAI 2023 KnowledgeNLP Workshop](https://knowledge-nlp.github.io/aaai2023/publications.html).
 - **[2023.02.05]** Our work is covered by [MarkTechPost](https://www.marktechpost.com/2023/02/05/a-new-artificial-intelligence-research-proposes-multimodal-chain-of-thought-reasoning-in-language-models-that-outperforms-gpt-3-5-by-16-75-17-%E2%86%92-91-68-on-scienceqa/).
-- **[2023.02.24]** The ScienceQA dataset is now included at [HuggingFace Datasets](https://huggingface.co/datasets/derek-thomas/ScienceQA). :star:
-- **[2023.02.02]** The ScienceQA dataset has served as the primary benchmark for the new generation of multimodal reasoning systems, [Multimodal-CoT](https://github.com/amazon-science/mm-cot), developed by [Amazon Science](https://www.amazon.science/).
+- **[2023.02.24]** The **ScienceQA** dataset is now included at [HuggingFace Datasets](https://huggingface.co/datasets/derek-thomas/ScienceQA). :star:
+- **[2023.02.02]** The **ScienceQA** dataset has served as the primary benchmark for the new generation of multimodal reasoning systems, [Multimodal-CoT](https://github.com/amazon-science/mm-cot), developed by [Amazon Science](https://www.amazon.science/).
 - **[2022.11.29]** Our work gives an poster presentation by Pan Lu at [NeurIPS 2022](https://nips.cc/Conferences/2022).
 - **[2022.11.20]** Our work is covered by [Geek Culture | Medium](https://medium.com/geekculture/neurips-2022-the-first-multi-modal-science-question-answering-science-qa-dataset-with-detailed-45b8d628b301).
 - **[2022.11]** Our work is now included at [Paper with Code](https://paperswithcode.com/dataset/scienceqa).
@@ -212,8 +212,7 @@ We present **Science Question Answering (ScienceQA)**, a new benchmark that cons
 <p align="center">
     <img src="assets/scienceqa.png" width="80%"> <br>
 </p>
-
-ScienceQA, in contrast to previous datasets, has richer domain diversity from three subjects: **natural science**, **language science**, and **social science**. ScienceQA features 26 topics, 127 categories, and 379 skills that cover a wide range of domains.
+**ScienceQA**, in contrast to previous datasets, has richer domain diversity from three subjects: **natural science**, **language science**, and **social science**. **ScienceQA** features 26 topics, 127 categories, and 379 skills that cover a wide range of domains.
 
 <p align="center">
     <img src="assets/domain.png" width="80%"> <br>
@@ -223,7 +222,7 @@ ScienceQA, in contrast to previous datasets, has richer domain diversity from th
     <img src="assets/context.png" width="80%"> <br>
 </p>
 
-We further design language models to learn to generate lectures and explanations as **the chain of thought (CoT)** to mimic the multi-hop reasoning process when answering ScienceQA questions. ScienceQA demonstrates the utility of CoT in language models, as CoT improves the question answering performance by 1.20% in few-shot GPT-3 and 3.99% in fine-tuned UnifiedQA.
+We further design language models to learn to generate lectures and explanations as **the chain of thought (CoT)** to mimic the multi-hop reasoning process when answering **ScienceQA** questions. **ScienceQA** demonstrates the utility of CoT in language models, as CoT improves the question answering performance by 1.20% in few-shot GPT-3 and 3.99% in fine-tuned UnifiedQA.
 
 For more details, you can find our project page [here](https://scienceqa.github.io/) and our paper [here](https://lupantech.github.io/papers/neurips22_scienceqa.pdf).
 
@@ -231,7 +230,34 @@ For more details, you can find our project page [here](https://scienceqa.github.
 
 ## :ghost: Download the Dataset
 
-The text part of the **ScienceQA** dataset is provided in [data/scienceqa/problems.json](https://github.com/lupantech/ScienceQA/blob/main/data/scienceqa/problems.json). You can download the image data of ScienceQA by running:
+The text part of the **ScienceQA** dataset is provided in [data/scienceqa/problems.json](https://github.com/lupantech/ScienceQA/blob/main/data/scienceqa/problems.json). 
+
+The data examples in `problem.json` follow the following format:
+
+```json
+{
+  "(question id)": {
+    "question": "question text, e.g., 'Which of these states is farthest north?'", 
+    "choices": "question choices, e.g., ['West Virginia', 'Louisiana', 'Arizona', 'Oklahoma']",
+    "answer": "index of ground truth answer, e.g., 0",
+    "hint": "the textual context, e.g., 'Figure: sturgeon.', could be an empty string",
+    "image": "the visual context with an image path, e.g., 'image.png', could be none",
+    "task": "task type, e.g., 'closed choice'",
+    "grade": "grade level, e.g., 'grade2'",
+    "subject": "subject type, e.g., 'social science'",
+    "topic": "topic type, e.g., 'geography'",
+    "category": "category type, e.g., 'Geography'",
+    "skill": "skill type, e.g., 'Read a map: cardinal directions'",
+    "lecture": "lecture of the question, e.g., 'Maps have four cardinal directions, or main directions. Those directions are north, south, east, and west.\nA compass rose is a set of arrows that point to the cardinal directions. A compass rose usually shows only the first letter of each cardinal direction.\nThe north arrow points to the North Pole. On most maps, north is at the top of the map.'",
+    "solution": "solution to the question, e.g., 'To find the answer, look at the compass rose. Look at which way the north arrow is pointing. West Virginia is farthest north.'",
+    "split": "data split, e.g., 'train'"
+  }
+}
+```
+
+For language models such as UnifiedQA, GPT-3, and GPT-4, you can concatenate the textual hint and the captioning of the image to form the context.
+
+You can download the image data of **ScienceQA** by running:
 
 ```sh
 . tools/download.sh
@@ -356,6 +382,9 @@ python run_gpt3.py \
 - :fire: **Visual Instruction Tuning**, arXiv:2304.08485 [[ArXiv](https://arxiv.org/abs/2304.08485)] [[Project](https://llava-vl.github.io/)] [[Code](https://github.com/haotian-liu/LLaVA)] [[Demo](https://llava.hliu.cc/)] [[Dataset](https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K)]
 - :fire: **Chameleon: Plug-and-Play Compositional Reasoning with Large Language Models**, arXiv:2304.09842 [[ArXiv](https://arxiv.org/abs/2304.09842)] [[Project](https://chameleon-llm.github.io/)] [[Code](https://github.com/lupantech/chameleon-llm)] [[YouTube](https://www.youtube.com/watch?v=EWFixIk4vjs&ab_channel=WorldofAI)]
 - :fire: **LLaMA-Adapter V2: Parameter-Efficient Visual Instruction Model**, arXiv:2304.15010 [[ArXiv](https://arxiv.org/abs/2304.15010)] [[Code](https://github.com/ZrrSkywalker/LLaMA-Adapter)] [[YouTube](https://www.youtube.com/watch?v=GAJyWkkSd8M&ab_channel=BruinTech)]
+- :fire: **TheoremQA: A Theorem-driven Question Answering Dataset**, arXiv:2305.12524 [[ArXiv](https://arxiv.org/abs/2305.12524)] [[Code](https://github.com/wenhuchen/TheoremQA)] [[Dataset](https://github.com/wenhuchen/TheoremQA)]
+- :fire: **SciBench: Evaluating College-Level Scientific Problem-Solving Abilities of Large Language Models**, arXiv:2307.10635 [[ArXiv](https://arxiv.org/abs/2307.10635)] [[Code](https://github.com/mandyyyyii/scibench)] [[Dataset](https://github.com/mandyyyyii/scibench)]
+- :fire: **MathVista: Evaluating Math Reasoning in Visual Contexts with GPT-4V, Bard, and Other Large Multimodal Models**, arXiv:2310.02255 [[ArXiv](https://arxiv.org/abs/2310.02255)] [[Project](https://mathvista.github.io/)] [[Code](https://github.com/lupantech/MathVista)] [[Dataset](https://huggingface.co/datasets/AI4Math/MathVista)]
 
 
 
@@ -365,9 +394,9 @@ python run_gpt3.py \
 
 This work is licensed under a [MIT License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-[![License: CC BY-SA 4.0](https://camo.githubusercontent.com/bdc6a3b8963aa99ff57dfd6e1e4b937bd2e752bcb1f1936f90368e5c3a38f670/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d434325323042592d2d5341253230342e302d6c69676874677265792e737667)](https://creativecommons.org/licenses/by-sa/4.0/)
+[![CC BY-NC-SA 4.0 license](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-The ScienceQA dataset is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+The **ScienceQA** dataset is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 
 
