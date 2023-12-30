@@ -268,7 +268,7 @@ Alternatively, you can download **ScienceQA** from [Google Drive](https://drive.
 
 💥 The **ScienceQA** dataset is now available at [HuggingFace Datasets](https://huggingface.co/datasets/derek-thomas/ScienceQA)!
 
-We have uploaded a demo to illustrate how to access the ScienceQA dataset on Hugging Face, available at https://github.com/lupantech/ScienceQA/blob/main/demos/Hugging_Face_Dataset_demo.ipynb.
+We have uploaded a demo to illustrate how to access the ScienceQA dataset on Hugging Face, available at [demos/Hugging_Face_Dataset_demo.ipynb](https://github.com/lupantech/ScienceQA/blob/main/demos/Hugging_Face_Dataset_demo.ipynb).
 
 ## :smiling_imp: Explore ScienceQA
 
