@@ -266,7 +266,7 @@ You can download the image data of **ScienceQA** by running:
 . tools/download.sh
 ```
 
-Alternatively, you can download **ScienceQA** from [Google Drive](https://drive.google.com/drive/folders/1w8imCXWYn2LxajmGeGH_g5DaL2rabHev?usp=sharing) and unzip the images under `root_dir/data`.
+Alternatively, you can download **ScienceQA** from [Google Drive](https://drive.google.com/drive/folders/16kuhXdM-MOhYcFIyRj91WvnDnjnF-xHw?usp=sharing) and unzip the images under `root_dir/data`.
 
 💥 The **ScienceQA** dataset is now available at [HuggingFace Datasets](https://huggingface.co/datasets/derek-thomas/ScienceQA)!
 
